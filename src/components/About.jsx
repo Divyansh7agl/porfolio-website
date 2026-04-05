@@ -145,10 +145,10 @@ export default function About() {
               })}
             </motion.div>
 
-            {/* Download CV button */}
+            {/* Download resume button */}
             <motion.div variants={fadeUp} style={{ marginTop: '2rem' }}>
               <motion.a
-                href="#"
+                href="/resume.pdf"
                 download
                 whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(124,58,237,0.4)' }}
                 whileTap={{ scale: 0.97 }}
@@ -159,9 +159,8 @@ export default function About() {
                   color: 'white', fontWeight: 600, fontSize: '0.9rem',
                   textDecoration: 'none',
                 }}
-                onClick={(e) => e.preventDefault()}
               >
-                Download CV
+                Download Resume
                 <span>↓</span>
               </motion.a>
             </motion.div>
