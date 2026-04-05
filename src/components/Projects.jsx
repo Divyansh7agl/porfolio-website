@@ -9,12 +9,14 @@ const GithubIcon = ({ size = 14 }) => (
   </svg>
 );
 
+const CLUTCH_AI_IMAGE = 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80';
+
 const PROJECTS = [
   {
     id: 1,
     title: 'Clutch AI | Interview Simulator',
     desc: 'A high-pressure interview simulator with dynamic difficulty scaling, voice-based AI interviews, and a structured feedback engine.',
-    image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80',
+    image: CLUTCH_AI_IMAGE,
     tags: ['React', 'TypeScript', 'Groq API', 'Web Speech API'],
     tagColors: ['#60a5fa', '#3178c6', '#a78bfa', '#22d3ee'],
     github: 'https://github.com/Divyansh7agl',
@@ -40,7 +42,7 @@ const PROJECTS = [
     id: 3,
     title: 'Ratify | Multi-Cloud Resource',
     desc: 'Dedicated multi-cloud monitoring dashboard integrating AWS and Azure services to identify cost inefficiencies and optimization opportunities.',
-    image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&q=80',
+    image: CLUTCH_AI_IMAGE,
     tags: ['AWS', 'Azure', 'FastAPI', 'Firebase'],
     tagColors: ['#fbbf24', '#3b82f6', '#10b981', '#f97316'],
     github: 'https://github.com/Divyansh7agl',
